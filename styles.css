@@ -26,6 +26,7 @@ header {
     left: 0;
     z-index: 1000;
     transition: all 0.3s ease;
+    padding:10px 0;
 }
 
 header.shrink {
@@ -73,7 +74,7 @@ nav ul li a:hover {
 }
 
 section {
-    padding: 60px 20px;
+    padding: 20px 0;
     animation: fadeIn 1.5s ease-in;
 }
 
@@ -85,6 +86,7 @@ h1 {
 
 p {
     font-size: 1.1em;
+    padding-bottom:15px;
 }
 
 ul {
@@ -94,8 +96,15 @@ ul {
 footer {
     background-color: #8b5e3c;
     color: #fff;
-    padding: 20px;
+    padding: 0;
     text-align: center;
+}
+
+footer .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
 }
 
 footer a {
@@ -113,17 +122,12 @@ footer a:hover {
     width: 100%;
     height: 300px; /* Adjust the height as needed */
     background-color: #d9d9d9;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-bottom: 20px;
 }
 
-#hero-image {
-    height: 400px; /* Taller for hero section */
-    background-color: #c4c4c4;
-    background: url('images/i-img-hero.jpg') no-repeat;
-    background-size: 100%;
-    background-position:center;
-}
+/* Adjusted Hero Section */
+
 
 /* Fade in animation */
 @keyframes fadeIn {
@@ -154,7 +158,7 @@ footer a:hover {
 }
 
 .parallax {
-    background-image: url('your-image.jpg');
+    background-image: url('images/hero-image.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;

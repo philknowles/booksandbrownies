@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Progress Bar -->
+    <!-- <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div> -->
+
     <header id="main-header">
         <div class="container">
             <div id="logo">Books and Brownies</div>
@@ -21,51 +26,75 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="image-placeholder" id="hero-image"></div>
-        <div class="container">
-            <h1>Welcome to Books and Brownies</h1>
-            <p>Your go-to book club for moms and kids, where stories and sweet treats come together.</p>
-        </div>
+    <!-- Hero Section with Parallax -->
+    <section id="hero" class="parallax-container">
+        <div class="parallax"></div>
     </section>
+    <div class="container reveal active">
+        <h1 class="typing-effect">Welcome to Books and Brownies</h1>
+        <p>Books and Brownies is more than just a book club—it's a gathering place where the magic of storytelling meets the warmth of homemade treats. Designed with both moms and kids in mind, our club offers a cozy environment where families can bond over their favorite books while indulging in delicious brownies.</p>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="image-placeholder" id="about-image"></div>
-        <div class="container">
-            <h1>About Books and Brownies</h1>
-            <p>Books and Brownies is a homeschool book club where moms and kids come together to swap books, read, and share delicious brownies. It's all about community, learning, and fun!</p>
-        </div>
+        <p>Whether you're diving into a new adventure, exploring timeless classics, or simply sharing your love of reading, our book club provides a nurturing space where imaginations can soar. Each meeting is a celebration of literature and community, with activities that inspire creativity, discussions that foster learning, and of course, mouthwatering brownies that make every visit a little sweeter.</p>
+        
+        <p>Join us in creating lasting memories, one book and one brownie at a time!</p>
+
+    </div>
+
+    <!-- About Section with Parallax -->
+    <section id="about" class="parallax-container">
+        <div class="parallax" style="background-image: url('images/about-image.jpg');"></div>
     </section>
+    <div class="container slide-in-left">
+        <h1>About Books and Brownies</h1>
+        <p>Books and Brownies is a homeschool book club where moms and kids come together to swap books, read, and share delicious brownies. It's all about community, learning, and fun!</p>
+    </div>
 
-    <!-- Activities Section -->
-    <section id="activities">
-        <div class="image-placeholder" id="activities-image"></div>
-        <div class="container">
-            <h1>What We Do</h1>
-            <ul>
-                <li>Book Swaps</li>
-                <li>Storytime</li>
-                <li>Baking Brownies Together</li>
-            </ul>
-        </div>
+    <!-- Activities Section with Parallax -->
+    <section id="activities" class="parallax-container">
+        <div class="parallax" style="background-image: url('images/activities-image.jpg');"></div>
     </section>
+    <div class="container slide-in-left">
+        <h1>What We Do</h1>
+        <ul>
+            <li>Book Swaps</li>
+            <li>Storytime</li>
+            <li>Baking Brownies Together</li>
+        </ul>
+    </div>
 
-    <!-- Highlights Section -->
-    <section id="highlights">
-        <div class="image-placeholder" id="highlights-image"></div>
-        <div class="container">
-            <h1>Our Latest Visit</h1>
-            <p>Last week, we had a great time reading "The Adventures of Tom Sawyer" and baking chocolate chip brownies together. Everyone had a blast!</p>
-        </div>
+    <!-- Highlights Section with Parallax -->
+    <section id="highlights" class="parallax-container">
+        <div class="parallax" style="background-image: url('images/highlights-image.jpg');"></div>
     </section>
+    <div class="container slide-in-left">
+        <h1>Our Latest Visit</h1>
+        <p>Last week, we had a great time reading "The Adventures of Tom Sawyer" and baking chocolate chip brownies together. Everyone had a blast!</p>
+    </div>
 
-    <footer id="join">
-        <div class="image-placeholder" id="join-image"></div>
-        <div class="container">
-            <h1>Join Us</h1>
-            <p>Interested in joining the fun? <a href="mailto:info@booksandbrownies.com">Contact us</a> for more information!</p>
+    <!-- Join Us Section with Parallax -->
+    <section id="join" class="parallax-container">
+        <div class="parallax" style="background-image: url('images/join-image.jpg');"></div>
+    </section>
+    <div class="container slide-in-left">
+        <h1>Join Us</h1>
+        <p>Interested in joining the fun? <a href="mailto:info@booksandbrownies.com">Contact us</a> for more information!</p>
+    </div>
+
+    <footer id="join" class="parallax-container">
+        <div class="container slide-in-left">
+            <div id="logo">Books and Brownies</div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#highlights">Highlights</a></li>
+                    <li><a href="#join">Join Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Copyright Notice -->
+        <div class="copyright">
+            <p>&copy; 2024 Books and Brownies. All rights reserved.</p>
         </div>
     </footer>
 
